@@ -1,0 +1,40 @@
+{"index":{"_index":"bank", "_id": "1"}}
+{"date": "2018-06-01", "bank": "NH농협은행", "branch": "1호점", "location": "종각", "customers": 2314}
+{"index":{"_index":"bank", "_id": "2"}}
+{"date": "2017-06-01", "bank": "NH농협은행", "branch": "1호점", "location": "강남", "customers": 5412}
+{"index":{"_index":"bank", "_id": "3"}}
+{"date": "2017-07-10", "bank": "국민은행", "branch": "1호점", "location": "강남", "customers": 2543}
+{"index":{"_index":"bank", "_id": "4"}}
+{"date": "2018-07-15", "bank": "NH농협은행", "branch": "2호점", "location": "강남", "customers": 4456}
+{"index":{"_index":"bank", "_id": "5"}}
+{"date": "2019-08-07", "bank": "NH농협은행", "branch": "3호점", "location": "강남", "customers": 1562}
+{"index":{"_index":"bank", "_id": "6"}}
+{"date": "2020-08-18", "bank": "NH농협은행", "branch": "4호점", "location": "강남", "customers": 5724}
+{"index":{"_index":"bank", "_id": "7"}}
+{"date": "2020-09-02", "bank": "국민은행", "branch": "1호점", "location": "신촌", "customers": 1002}
+{"index":{"_index":"bank", "_id": "8"}}
+{"date": "2020-09-11", "bank": "국민은행", "branch": "1호점", "location": "양재", "customers": 4121}
+{"index":{"_index":"bank", "_id": "9"}}
+{"date": "2020-09-20", "bank": "NH농협은행", "branch": "3호점", "location": "홍제", "customers": 1021}
+{"index":{"_index":"bank", "_id": "10"}}
+{"date": "2020-10-01", "bank": "국민은행", "branch": "1호점", "location": "불광", "customers": 971}
+{"index":{"_index":"bank", "_id": "11"}}
+{"date": "2019-06-01", "bank": "NH농협은행", "branch": "2호점", "location": "종각", "customers": 875}
+{"index":{"_index":"bank", "_id": "12"}}
+{"date": "2018-06-01", "bank": "국민은행", "branch": "2호점", "location": "강남", "customers": 1506}
+{"index":{"_index":"bank", "_id": "13"}}
+{"date": "2020-09-02", "bank": "국민은행", "branch": "2호점", "location": "신촌", "customers": 3912}
+{"index":{"_index":"bank", "_id": "14"}}
+{"date": "2020-09-11", "bank": "국민은행", "branch": "2호점", "location": "양재", "customers": 784}
+{"index":{"_index":"bank", "_id": "15"}}
+{"date": "2020-10-01", "bank": "국민은행", "branch": "2호점", "location": "불광", "customers": 4513}
+{"index":{"_index":"bank", "_id": "16"}}
+{"date": "2020-10-01", "bank": "국민은행", "branch": "3호점", "location": "불광", "customers": 235}
+{"index":{"_index":"bank", "_id": "17"}}
+{"date": "2016-07-01", "bank": "기업은행", "branch": "1호점", "location": "불광", "customers": 971}
+{"index":{"_index":"bank", "_id": "18"}}
+{"date": "2017-10-01", "bank": "기업은행", "branch": "2호점", "location": "불광", "customers": 100}
+{"index":{"_index":"bank", "_id": "19"}}
+{"date": "2018-11-01", "bank": "기업은행", "branch": "3호점", "location": "불광", "customers": 151}
+{"index":{"_index":"bank", "_id": "20"}}
+{"date": "2020-10-01", "bank": "기업은행", "branch": "4호점", "location": "불광", "customers": 1302}

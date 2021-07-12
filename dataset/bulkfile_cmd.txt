@@ -1,0 +1,4 @@
+-- json 파일의 마지막 에 enter 필수
+curl -XPOST http://localhost:9200/_bulk -H "Content-Type: application/json" --data-binary @bulk_accounts.json
+
+curl -XPOST http://localhost:9200/_bulk -H "Content-Type: application/json" --data-binary @bulk_banks.json

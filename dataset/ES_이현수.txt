@@ -1,0 +1,67 @@
+#국민은행 지점별 customers 출력
+GET bank/_search
+{
+  "query": {
+    "match": {
+      "bank": "국민은행"
+    }
+  },
+  "size": 10, 
+  "aggs": {
+    "b_1": {
+      "terms": {
+        "field": "customers"
+      }
+    }
+  }
+}
+
+# branch별 유니크한 자료들 출력
+GET bank/_search
+{
+  "size": 0, 
+  "aggs": {
+    "b_2": {
+      "cardinality": {
+        "field": "branch.keyword"
+      }
+    }
+  }
+}
+
+# 국민은행 고객들에 대한 집계 자료 출력
+GET bank/_search
+{
+  "query": {
+    "match": {
+      "bank": "국민은행"
+    }
+  },
+  "size": 0, 
+  "aggs": {
+    "b_3": {
+      "stats": {
+        "field": "customers"
+      }
+    }
+  }
+}
+
+# 농협은행 고객 수 구간별(1000단위) 검색
+GET bank/_search
+{
+  "query": {
+    "match": {
+      "bank": "NH농협은행"
+    }
+  },
+  "size": 0, 
+  "aggs": {
+    "b_4": {
+      "histogram": {
+        "field": "customers",
+        "interval": 1000
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+실습 내용
+
+1. 기술 문서를 보고 ES에 CRUD
+    1. https://elasticsearch-py.readthedocs.io/en/v7.13.3/
+    2. Library install
+    
+2. 한글 형태소 분석
+    1. plug in 필요
+    2. java 기반
+    3. 개발 환경에 jdk라는 자바 개발 환경이 설치되어야 함
+        설치 >> path 등록
